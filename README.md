@@ -83,20 +83,34 @@ for number in 1...40 where number % 10 == 7 {
 Given a range of numbers from 20 to 150 inclusive, print out all the numbers that follows these conditions:
 
 `Numbers that are divisible by 3`
-
+```
+for num in 20...150 where num % 3 == 0 {
+    print("\(num)")
+}
+```
 ***
 ## Question 8
 
 Given a range of numbers from 20 to 150 inclusive, print out all the numbers that follows these conditions:
 
 `Numbers that are divisible by 2 and 3`
-
+```
+for num in 20...150 where num % 2 == 0 && num % 3 == 0 {
+    print("\(num)")
+}
+```
 ***
 ## Question 9
 
 Given a range of numbers from 20 to 150 inclusive, print out all the numbers that follows these conditions:
 
 `Numbers that end with a 4`
+
+```
+for num2 in 20...150 where num2 % 10 == 4 {
+    print("\(num2)")
+}
+```
 
 ***
 ## Question 10
